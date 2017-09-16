@@ -8,7 +8,7 @@ var APP_DIR2 = path.resolve(__dirname, '../../src');
 console.log(APP_DIR2);
 
 const CONFIG_PATH = path.resolve(__dirname, './config');
-let configBuilder = require("pluginbot/src/helpers/configBuilder");
+let configBuilder = require("pluginbot/config");
 var config = async function(){
     let pluginConfigs = await configBuilder.buildClientConfig(CONFIG_PATH);
     let pluginMap = await configBuilder.buildClientPluginMap(CONFIG_PATH);

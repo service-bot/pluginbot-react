@@ -1,7 +1,7 @@
 let express = require("express");
 let path = require("path");
 let {take} = require("redux-saga/effects");
-let consume = require("pluginbot/src/pluginbot-base").consume
+let consume = require("pluginbot/effects/consume")
 module.exports  = {
     start : function (config, imports) {
 
