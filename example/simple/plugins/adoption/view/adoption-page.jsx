@@ -1,5 +1,5 @@
 import React from 'react';
-import consume from "../../../view/stuff/consume"
+import consume from "pluginbot-react/src/consume"
 
 let adoptionPage = function(props){
     if(props.services.animal){

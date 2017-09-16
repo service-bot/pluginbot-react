@@ -3,7 +3,7 @@ var path = require('path');
 
 var BUILD_DIR = path.resolve(__dirname, './public/build');
 var APP_DIR = path.resolve(__dirname, './view');
-var APP_DIR2 = path.resolve(__dirname, '../../src');
+var APP_DIR2 = path.resolve(__dirname, '.');
 
 console.log(APP_DIR2);
 
