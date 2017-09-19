@@ -3,5 +3,9 @@ Provides components and functions used to integrate Pluginbot with a React appli
 
 
 ###Basic Usage
+### Provider
+### Consume
+### Using with Redux
+
 
 ####
