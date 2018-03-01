@@ -20,11 +20,9 @@ class PluginbotClient {
                 let pkgPart = pluginPackage.pluginbot.client;
                 let pluginName = key;
                 let pluginConfig = value.clientConfig;
-                console.log("GETTIN PLUGIN! " + pluginName);
 
                 //assumes the plugins have been generated already
                 let plugin = require("_plugins")[pluginName];
-                console.log("THIS IS PLUGIN", plugin);
                 plugins[pluginName] = new Plugin(plugin, pluginPackage, pluginConfig,pkgPart);
 
 

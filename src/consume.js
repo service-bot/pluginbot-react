@@ -8,10 +8,8 @@ export default function(...servicesToConsume){
                 console.error("pluginbot not initialized, try adding pluginbot provider")
                 return {services : {}};
             }
-            console.log("CONSUMIN!", state);
             let services = servicesToConsume.reduce((acc, service) => {
                 acc[service] = state.pluginbot.services[service];
-                console.log(service, "GOT ME A THING", state.pluginbot.services[service]);
                 return acc;
             }, {});
 
