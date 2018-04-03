@@ -1,5 +1,5 @@
-let Plugin = require("pluginbot/src/plugin");
-let PluginbotBase = require("pluginbot/src/pluginbot-base");
+let Plugin = require("pluginbot/dist/plugin");
+let PluginbotBase = require("pluginbot/dist/pluginbot-base");
 
 class PluginbotClient {
 
